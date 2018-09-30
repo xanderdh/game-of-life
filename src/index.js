@@ -53,7 +53,6 @@ startGame(() => {
   clearAll();
   fillAll(gameSettings.field);
 
-
   if (state.condition === 'PLAY') {
     game.play(state.play, state.speed)
   }
